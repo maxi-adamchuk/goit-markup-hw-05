@@ -460,8 +460,12 @@ margin-bottom: 16px;
         letter-spacing: 0.02em;
         color: #ffffff;
     }
+    .footer-form-container {
+        margin-left: 80px;
+    }
     .footer-subscribe-form {
         display: flex;
+        gap: 24px;
     }
     .footer-subscribe-label {
         gap: 24px;
@@ -482,7 +486,7 @@ margin-bottom: 16px;
     .subscribe-btn {
     border-radius: 4px;
 padding: 8px 24px;
-width: 165px;
+min-width: 165px;
 height: 40px;
 background: #4d5ae5;
 font-weight: 500;
